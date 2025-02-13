@@ -116,41 +116,24 @@
 
       <div class="contact-form" id="request-data">
         <h2>Contact Us About Your Data</h2>
-        <form
-          action="https://formspree.io/f/estebanriu@mexicomail.com"
-          method="POST"
+        <p>
+          To request access to your data, delete your data, or modify your
+          privacy settings, please email us at:
+        </p>
+        <a
+          href="mailto:estebanriu@mexicomail.com?subject=Celebrity%20Match%20AI%20-%20Data%20Request"
+          class="button"
+          >Contact Us About Your Data</a
         >
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <select
-            name="request_type"
-            style="
-              width: 100%;
-              padding: 10px;
-              margin: 5px 0;
-              border: 1px solid #ddd;
-              border-radius: 4px;
-            "
-          >
-            <option value="">Select Request Type</option>
-            <option value="access">Request Data Access</option>
-            <option value="delete">Request Data Deletion</option>
-            <option value="modify">Modify Privacy Settings</option>
-            <option value="other">Other Privacy Question</option>
-          </select>
-          <textarea
-            name="message"
-            placeholder="Your Message"
-            rows="5"
-            required
-          ></textarea>
-          <input
-            type="hidden"
-            name="_subject"
-            value="Celebrity Match AI - Data Request"
-          />
-          <button type="submit">Submit Request</button>
-        </form>
+        <p>Please include in your email:</p>
+        <ul>
+          <li>Your full name</li>
+          <li>
+            Your request type (access, deletion, or settings modification)
+          </li>
+          <li>Any additional details about your request</li>
+        </ul>
+        <p>We will respond to your request within 30 days.</p>
       </div>
 
       <div class="data-section">
